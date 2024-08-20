@@ -1,11 +1,42 @@
 * {
     background-color: #faebd7;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 48px;
     text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p,
+li {
+    font-size: 18px;
+}
+
+ul {
+    color:mediumblue;
+}
+
+ol {
+    color:darkred;
+}
+
+.ingredient {
+    color: blueviolet;
+}
+
+.main {
+    font-weight: bold;
+}
+
+.main.ingredient {
+    color: #01865e;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .nav-item {
@@ -17,4 +48,9 @@ h1 {
 
 .nav-link {
     color: #01865e;
+}
+
+.portrait {
+    height: auto;
+    width: 400px;
 }
