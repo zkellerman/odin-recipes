@@ -6,6 +6,7 @@
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 48px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -39,11 +40,18 @@ ol {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.nav-bar {
+    text-align: center;
+}
+
 .nav-item {
     color: #920404;
+    display: inline;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
+    margin-right: 25px;
+    padding: 10px;
 }
 
 .nav-link {
